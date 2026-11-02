@@ -35,6 +35,7 @@
             txtEdad = new TextBox();
             btnAceptar = new Button();
             label4 = new Label();
+            lblCurso = new Label();
             SuspendLayout();
             // 
             // lblNombre
@@ -100,11 +101,21 @@
             label4.TabIndex = 6;
             label4.Text = "Formulario de bienvenida";
             // 
+            // lblCurso
+            // 
+            lblCurso.AutoSize = true;
+            lblCurso.Location = new Point(67, 352);
+            lblCurso.Name = "lblCurso";
+            lblCurso.Size = new Size(130, 15);
+            lblCurso.TabIndex = 7;
+            lblCurso.Text = "Desarrollo de Interfaces";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblCurso);
             Controls.Add(label4);
             Controls.Add(btnAceptar);
             Controls.Add(txtEdad);
@@ -127,5 +138,6 @@
         private TextBox txtEdad;
         private Button btnAceptar;
         private Label label4;
+        private Label lblCurso;
     }
 }
